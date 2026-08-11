@@ -81,7 +81,8 @@
             <strong>Dự án Lập trình Web cá nhân:</strong> Kho lưu trữ bài tập thực hành 9 buổi môn Lập trình Web (PHP & MySQL).
         </li>
         <li>
-            <strong>Dự án Lập trình Web nhóm:</strong> Dự án môn học làm theo nhóm (Quản lý bán hàng / sản phẩm).
+            <strong>Dự án Lập trình Web nhóm:</strong> Dự án môn học làm theo nhóm (HỆ THỐNG QUẢN LÝ KHÓA HỌC VÀ ĐĂNG KÝ 
+HỌC PHẦN).
         </li>
     </ul>
 
