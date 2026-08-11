@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Thực Hành - Buổi 1</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        body { background-color: #f4f6f9; color: #333; padding: 30px 20px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        header { border-bottom: 2px solid #0066cc; padding-bottom: 15px; margin-bottom: 25px; }
+        h1 { color: #0066cc; font-size: 1.7rem; margin-bottom: 5px; }
+        p.subtitle { color: #666; }
+        
+        .list { display: flex; flex-direction: column; gap: 15px; margin: 20px 0; }
+        .item { display: flex; align-items: center; justify-content: space-between; background: #f8f9fa; border: 1px solid #e0e0e0; padding: 18px 20px; border-radius: 8px; text-decoration: none; color: #333; transition: all 0.2s ease; }
+        .item:hover { background: #eef5fc; border-color: #0066cc; transform: translateX(5px); }
+        .item h3 { color: #0066cc; font-size: 1.1rem; margin-bottom: 4px; }
+        .item p { font-size: 0.88rem; color: #666; }
+        .btn-view { background: #0066cc; color: #fff; padding: 8px 16px; border-radius: 5px; font-weight: bold; font-size: 0.85rem; }
+        
+        .btn-back { display: inline-block; margin-top: 15px; color: #666; text-decoration: none; font-weight: bold; }
+        .btn-back:hover { color: #0066cc; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>📚 BÀI TẬP THỰC HÀNH - BUỔI 1</h1>
+        <p class="subtitle">Sinh viên: Nguyễn Đức Anh | Ngành: CNTT - Lớp D2024</p>
+    </header>
+
+    <div class="list">
+        <!-- Bài 1 -->
+        <a href="./about.html" class="item">
+            <div>
+                <h3>📄 Bài 1: Giới Thiệu Bản Thân</h3>
+                <p>Trang thông tin sinh viên, chuyên ngành & dự án môn học</p>
+            </div>
+            <span class="btn-view">Xem Bài 1</span>
+        </a>
+
+        <!-- Bài 2 -->
+        <a href="./bai2_hinhanh.html" class="item">
+            <div>
+                <h3>💻 Bài 2: Phiên Bản Phần Mềm (PHP & MySQL)</h3>
+                <p>Ảnh chụp màn hình kiểm tra phiên bản PHP 8.3.33 và MySQL 8.0.46</p>
+            </div>
+            <span class="btn-view">Xem Bài 2</span>
+        </a>
+
+        <!-- Bài 3 -->
+        <a href="./bai3_demo.html" class="item">
+            <div>
+                <h3>📋 Bài 3: Bài Tập Cú Pháp PHP & HTML Cơ Bản</h3>
+                <p>Bài thực hành bảng dữ liệu thông tin</p>
+            </div>
+            <span class="btn-view">Xem Bài 3</span>
+        </a>
+    </div>
+
+    <a href="../index.html" class="btn-back">⬅️ Quay lại Trang Chủ Học Phần</a>
+</div>
+
+</body>
+</html>
